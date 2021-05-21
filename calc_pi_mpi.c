@@ -22,7 +22,7 @@ int main( int argc, char *argv[])
     MPI_Comm_rank(MPI_COMM_WORLD,&myid);
     MPI_Get_processor_name(processor_name,&namelen);
 
-    fprintf(stderr,"Process %d on %s\n",
+    fprintf(stderr,"Processo %d em %s\n",
 	    myid, processor_name);
 
     n = 0;
