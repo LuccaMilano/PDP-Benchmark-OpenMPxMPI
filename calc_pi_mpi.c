@@ -53,7 +53,7 @@ int main( int argc, char *argv[])
 
             if (myid == 0)
 	    {
-                printf("pi ie aproximadamente %.16f, Erro - %.16f\n",
+                printf("pi é aproximadamente %.16f, Erro - %.16f\n",
                        pi, fabs(pi - PI25DT));
 		endwtime = MPI_Wtime();
 		printf("Tempo em segundos = %f\n",
